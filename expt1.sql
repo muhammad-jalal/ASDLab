@@ -1,5 +1,5 @@
 CREATE TABLE student
-(   sno INT AUTO_INCREMENT PRIMARY KEY,
+(   sno INT PRIMARY KEY,
     name VARCHAR(50) NOT NULL,
     marks INT NOT NULL,
     dept VARCHAR(20) NOT NULL
