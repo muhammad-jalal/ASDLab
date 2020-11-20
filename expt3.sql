@@ -17,8 +17,9 @@ CREATE TABLE EmployeeDetails
 INSERT INTO Employee (`empid`, `first_name`, `last_name`, `salary`)
 VALUES (1, "RAHUL", "KRIS", 12000),
        (2, "HAR", "BABU", 2000),
-       (3, "ROCKEY", "J", 100000);
-
+       (3, "ROCKEY", "J", 100000),
+       (4, "JA", "M", 150000);
+       
 INSERT INTO EmployeeDetails (`empid`, `address`, `dob`)
 VALUES (1, "NEW ELHI", "1993-2-22"),
        (2, "KOLKATA", "1993-5-20"),
