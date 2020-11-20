@@ -8,9 +8,9 @@ CREATE TABLE employeedetails
  
    
 INSERT INTO employeedetails 
-VALUES ('1','Rahul','Kris','Banglore','M'),
-       ('2','Bahu','Babu','New Delhi','M'),
-       ('3','Rockey','Bhai','Kerala','F');
+VALUES ('1','Rahul','Kris','Banglore'),
+       ('2','Bahu','Babu','New Delhi'),
+       ('3','Rockey','Bhai','Kerala');
     
 
 SELECT * FROM Employee
