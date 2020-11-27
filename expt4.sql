@@ -9,3 +9,10 @@ CREATE TABLE `department`
 );
 
 
+CREATE TABLE `instructor` 
+(
+  `Id` INT NOT NULL DEFAULT 1,
+  `Name` VARCHAR(45) NOT NULL,
+  `Code` INT NOT NULL,
+   FOREIGN KEY (`Code`) REFERENCES `department` (`Code`)
+);
