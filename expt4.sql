@@ -19,11 +19,11 @@ CREATE TABLE `instructor`
 
 
 
-INSERT INTO `asd-lab`.`department`(`Code`,`Title`,`Dept_name`,`Dept_id`,`Salary`)
+INSERT INTO `department`(`Code`,`Title`,`Dept_name`,`Dept_id`,`Salary`)
 VALUES (1,'TEACHER','COMPUTER',11,25000),
 	     (2,'LAB TECHNICIAN','ELECTRONICS',22,20500),
        (3,'LAB ASSISTANT','ELECTRICAL',33,18500);
        
        
-INSERT INTO Instructor(`name`, `code`)
+INSERT INTO `instructor`(`name`, `code`)
 VALUES ("RAMESH", 111);       
