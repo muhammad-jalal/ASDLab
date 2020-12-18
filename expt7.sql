@@ -7,9 +7,10 @@ CREATE TABLE Store (
 );
 
 
+
 INSERT INTO Store (`item`, `quantity`, `discount`, `mrp`)
 VALUES ('TEXT', 5, 0, 50), 
-       ('', 100, 0, 1);
+       ('TOFFEE', 100, 0, 1);
 
 
 
