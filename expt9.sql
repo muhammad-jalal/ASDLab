@@ -30,11 +30,11 @@ CREATE TABLE Deposit(
 
 
 INSERT INTO Deposit(baccno, branch_name, amount)
-VALUES (1889001,'palakkad',500000),  
-       (1889002,'palakkad',230000),
-       (1889003,'karunagapally',180000),
-       (1889004,'palakkad',55000),
-       (1889005,'alapuzha',75000);
+VALUES (1889881,'kottayam',500000),  
+       (1889882,'palakkad',230000),
+       (1889883,'cochin',180000),
+       (1889884,'munnar',55000),
+       (1889885,'alapuzha',75000);
 
 
 
